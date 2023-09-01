@@ -1,0 +1,102 @@
+.base{
+    position: relative;
+    border: 1px solid rgb(7,7,7);
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+.eyebase1{
+    position:absolute;
+    border: 2px solid rgb(255,255,255);
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    left: 40px;
+    top: 65px;
+}
+.eyebase2{
+    position:absolute;
+    border: 2px solid rgb(255,255,255);
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    left: 175px;
+    top: 65px;
+}
+.eyeball1{
+    position:absolute;
+    border: 2px solid black;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 35px;
+    left: 18px;
+    top: 22px;
+}
+.eyeball2{
+    position:absolute;
+    border: 2px solid black;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 35px;
+    left: 18px;
+    top: 22px;
+}
+.ear1{
+    position:absolute;
+    border: 2px solid black;
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px 60px 0px 0px;
+    left: 35px;
+    bottom: 230px;
+    z-index: -1;
+}
+.ear2{
+    position:absolute;
+    border: 1px solid black;
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px 60px 0px 0px;
+    right: 35px;
+    bottom: 230px;
+    z-index: -1;
+}
+.nosebase{
+    position:relative;
+    border: 1px solid black;
+    background-color: red;
+    height: 75px;
+    width: 150px;
+    border-radius: 60px;
+    left: 73px;
+    top: 165px;
+}
+.hole1{
+    position:relative;
+    border: 1px solid black;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    left: 20px;
+    top: 15px;
+}
+.hole2{
+    position:relative;
+    border: 1px solid black;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    left: 86px;
+    bottom: 26px;
+}
